@@ -7,6 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>login form</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="css/styles.css" />
 </head>
 
@@ -20,17 +24,21 @@
             <div class="card-login">
                 <header class="header">
                     <img src="images/image_2.png" alt="logo">
-                    <h1>SisVet</h1>
+                    <h1><span>Sis</span>Vet</h1>
                 </header>
-                <form>
-                    <div class="textfield">
-                        <input type="email" name="email" placeholder="Seu email">
-                    </div>
-                    <div class="textfield">
-                        <input type="password" name="senha" placeholder="Sua Senha">
-                    </div>
-                    <button class="btn-login">ENTRAR</button>
-                </form>
+
+                <div class="textfield">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" placeholder="Seu email">
+                </div>
+
+                <div class="textfield">
+                    <label for="email">Senha</label>
+                    <input type="password" name="senha" placeholder="Sua Senha">
+                </div>
+
+                <button class="btn-login">ENTRAR</button>
+
 
             </div>
         </div>

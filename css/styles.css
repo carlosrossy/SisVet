@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.main-login {
+    width: 100vw;
+    height: 100vh;
+    background-color: #02A0C7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-login {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.left-login h1 {
+    color: #ffffff;
+    font-size: 3rem;
+}
+
+.left-login img {
+    height: 60%;
+}
+
+.right-login {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card-login {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px 45px;
+    background-color: #03426B;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header img {
+    width: 20%;
+}
+
+.header span {
+    color: #0096F2;
+}
+
+.header h1 {
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.textfield {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.textfield input {
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    padding: 15px;
+    background: #d9d9d973;
+    color: #000;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfield label {
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.textfield input::placeholder {
+    color: #fff;
+    font-weight: 500;
+}
+
+.btn-login {
+    width: 100%;
+    height: 55px;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    background: #0096F2;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.btn-login:hover {
+    background-color: #0a90e491;
+    /* Green */
+    color: white;
+}
