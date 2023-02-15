@@ -195,3 +195,57 @@ body {
     justify-content: center;
     flex-direction: column;
 }
+
+.main-Admin {
+    width: 100vw;
+    height: 100vh;
+    background-color: #02A0C7;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-Admin span {
+    color: #03426B;
+}
+
+.main-Admin header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px;
+    color: #fff;
+}
+
+.options-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.opt {
+    width: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    background: #03426B;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+.opt:hover {
+    background: #03416bb6;
+    cursor: pointer;
+}
+
+.opt h1 {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.opt i {
+    font-size: 1.5rem;
+    color: #fff;
+    margin-right: 10px;
+}
