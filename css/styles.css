@@ -121,6 +121,77 @@ body {
 
 .btn-login:hover {
     background-color: #0a90e491;
-    /* Green */
     color: white;
+}
+
+/* Register */
+
+.main-register {
+    width: 100vw;
+    height: 100vh;
+    background-color: #02A0C7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-register {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.left-register h1 {
+    color: #ffffff;
+    font-size: 3rem;
+}
+
+.left-register h2 {
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+.left-register img {
+    height: 50%;
+}
+
+.card-register {
+    width: 50%;
+    height: 77%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px 45px;
+    background-color: #03426B;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+.card-register h2 {
+    color: #fff;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.card-register span {
+    color: #0096F2;
+    text-decoration: underline;
+}
+
+.card-register h1 {
+    color: #fff;
+    font-size: 1.7rem;
+}
+
+.right-register {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
 }
